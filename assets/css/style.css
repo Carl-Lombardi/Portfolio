@@ -1,0 +1,190 @@
+body {
+    margin: 0;
+    background-color: black
+ }
+
+  p {
+    line-height: 1.4;
+  }
+
+  .toolbar {
+    margin: auto;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    margin-bottom: 40px;
+  }
+
+  .content {
+      width: 960px;
+  }
+
+  #links {
+      float: right;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+  li {
+    float: left;
+    position: relative;
+  }
+
+
+  #active {
+    display: block;
+    background-color: black;
+    color: #ffffff;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 24px;
+    padding: 20px;
+    position: relative;
+  }
+
+  .container {
+    max-width: 960px;
+    margin: auto;
+  }
+
+  .box {
+    padding: 40px;
+    border: 1px solid red;
+    position: relative;
+    background: black;
+    margin-bottom: 90px;
+  }
+
+  .title {
+    color: #ffffff;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 24px;
+    margin: 0 0 30px 0;
+    position: relative;
+    border-bottom: 1px solid red;
+    padding-bottom: 15px;
+  }
+
+  .paragraph {
+    font-family: 'Darker Grotesque', sans-serif;
+    text-align: justify;
+    font-size: 18px;
+    color: white;
+    line-height: 20px;
+  }
+
+  .paragraph .photo {
+    float: left;
+    margin: 0px 30px 30px 0px;
+    position: relative;
+  }
+
+ .row2, .column2 {
+    position: relative;
+    left: 125px;
+    bottom: 365px;
+  }
+
+ a:visited {
+    color: white;  
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 16px;
+  }
+
+  a:hover {
+    color: red; 
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 16px;
+  }
+
+  a:active {
+    color: red; 
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 16px;
+  }
+
+  @media screen and (max-width: 980px) {
+
+    .box {
+      width: 46.7%;
+      position: relative;
+      margin-left: auto;
+      margin-right: auto;
+      }
+
+          .toolbar {
+            width: 100%;
+          }
+      
+          #active {
+            width: 20%;
+            text-align: center;
+          }
+
+    } 
+  
+
+  @media screen and (max-width: 768px) {
+
+    .box {
+      width: 46.7%;
+      position: relative;
+      margin-left: auto;
+      margin-right: auto;
+      }
+
+          .toolbar {
+            width: 100%;
+          }
+      
+          #active {
+            width: 20%;
+            text-align: center;
+          }
+          
+
+    } 
+  
+
+  @media screen and (max-width: 640px) {
+    .box {
+      width: 60%;
+      position: relative;
+      margin-left: auto;
+      margin-right: auto;
+      }
+
+    
+    .toolbar {
+      width: 100%;
+    }
+
+    #active {
+      width: 100%;
+      text-align: center;
+    }
+
+    li a {
+      padding: 20px 40px 20px 10px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+    .row2, .column2 {
+      position: relative;
+      left: 0px;
+      bottom: 0px;
+    }
+
+    .img {
+      right: 20px;
+    }
+
+  }
+
+  
