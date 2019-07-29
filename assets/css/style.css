@@ -90,6 +90,17 @@ body {
     bottom: 365px;
   }
 
+  .active1 {
+    display: block;
+    background-color: black;
+    color: #ffffff;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    position: relative;
+    border: 1px solid red;
+  }
+
  a:visited {
     color: white;  
     font-family: 'Darker Grotesque', sans-serif;
